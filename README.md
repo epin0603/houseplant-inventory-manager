@@ -27,22 +27,22 @@ Make sure you have the following installed on your machine:
 ### Installation
 
 1. **Clone the Repository**
-sh
-git clone https://github.com/epin0603/houseplant-inventory-manager.git
-cd houseplant-inventory-manager
+- sh
+- git clone https://github.com/epin0603/houseplant-inventory-manager.git
+- cd houseplant-inventory-manager
 
 2. **Set Up the Backend**
-cd backend
-python -m venv venv
-venv\Scripts\activate  # On Windows
-source venv/bin/activate  # On macOS/Linux
-pip install -r requirements.txt
-flask run
+- cd backend
+- python -m venv venv
+- venv\Scripts\activate  # On Windows
+- source venv/bin/activate  # On macOS/Linux
+- pip install -r requirements.txt
+- flask run
 
 3. **Set Up the Frontend**
-cd ../frontend
-npm install
-npm start
+- cd ../frontend
+- npm install
+- npm start
 
 ### Running the Application
 - Start the venv by running "source venv/Scripts/activate" in the main directory.
